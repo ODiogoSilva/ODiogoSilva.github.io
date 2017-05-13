@@ -1,0 +1,90 @@
+body {
+  background-image: url("../content/images/back2.jpg")
+}
+
+.container-fluid {
+  padding-left: 0!important;
+}
+
+.construction-panel {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  padding-left: 0;
+  background: #ECE9E6;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  opacity: .9;
+}
+
+.construction-banner {
+  position: absolute;
+  width: 100%;
+  top: 30%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.construction-banner > h1 {
+  font-family: "Press Start 2P", cursive;
+  font-size: 50px;
+  text-align: left;
+  color: slategray;
+}
+
+.construction-banner > h3 {
+  font-size: 18px;
+  text-align: left;
+  font-weight: bold;
+  line-height: 40px;
+  color: grey;
+}
+
+.social-icon {
+  font-size: 100px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.social-text {
+  font-size: 20px;
+  color: cornflowerblue;
+  font-weight: bold;
+  visibility: hidden;
+}
+
+@keyframes zoom-text {
+  from {font-size:2px;}
+  to {font-size:20px;}
+}
+
+.social-icon:hover .fa {
+  color: cornflowerblue;
+}
+
+.social-icon:hover .social-text {
+  visibility: visible;
+  animation-name: zoom-text;
+  animation-duration: .2s;
+}
+
+.social-icon a .fa {
+  color: black;
+}
+
+.panel-footer {
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+  background-color: transparent!important;
+  
+}
+
+.panel-footer p {
+  font-weight: bold;
+  color: grey;
+  text-align: center;
+}
